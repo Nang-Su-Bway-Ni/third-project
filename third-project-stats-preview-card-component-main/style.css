@@ -67,11 +67,11 @@ main .right {
   background-image: url(./images/image-header-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 5px 5px 0 0;
+  border-radius: 0 5px 0 0;
 }
 main .right .overlay {
   background-color: var(--accent);
-  opacity: 0.3;
+  opacity: 0.4;
   top: 0;
   z-index: 999;
   width: 100%;
@@ -93,6 +93,7 @@ main .right .overlay {
     flex-basis: 100%;
     order: 1;
     height: 30%;
+    border-radius: 5px 5px 0 0;
   }
   main .left .under {
     padding: 10px;
